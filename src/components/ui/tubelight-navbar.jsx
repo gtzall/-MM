@@ -34,7 +34,7 @@ export const TubelightNavbar = ({ items = [] }) => {
   return (
     <nav className="relative bg-gray-900/95 backdrop-blur-sm border-b border-gray-700/50">
       <div className="max-w-7xl mx-auto px-4">
-        <div className="flex items-center justify-center h-16" ref={navRef}>
+        <div className="flex items-center justify-center h-16 pl-14 sm:pl-16 md:pl-24" ref={navRef}>
           <div className="relative flex items-center gap-2">
             {items.map((item, index) => (
               <Link

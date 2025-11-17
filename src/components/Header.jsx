@@ -24,7 +24,7 @@ export const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50">
-      <img src="/images/mm-logo.png" alt="MM" className="fixed top-2 left-4 h-12 w-auto pointer-events-none select-none z-[60]" />
+      <img src="/images/mm-logo.png" alt="MM" className="fixed top-[max(env(safe-area-inset-top),0.5rem)] left-[max(env(safe-area-inset-left),0.75rem)] h-8 sm:h-9 md:h-12 lg:h-14 w-auto pointer-events-none select-none z-[60]" />
       {/* Nova Navbar Tubelight */}
       <TubelightNavbar items={navItems} />
     </header>

@@ -17,7 +17,7 @@ export const SplashScreen = ({ visible }) => {
             initial={{ scale: 0.9, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.6 }}
-            className="h-28 w-auto"
+            className="h-20 sm:h-24 md:h-28 w-auto"
           />
         </motion.div>
       )}
